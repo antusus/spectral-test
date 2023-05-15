@@ -1,0 +1,14 @@
+{
+  "name": "spectral-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "spectral lint openapi.json -F error --fail-on-unmatched-globs -v"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@stoplight/spectral": "5.9.2"
+  }
+}

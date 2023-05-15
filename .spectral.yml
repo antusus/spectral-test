@@ -1,0 +1,7 @@
+extends: [[spectral:oas, all]]
+
+overrides:
+  - files:
+      - "**#/components/schemas/Activity/properties/tags/example"
+    rules:
+      oas3-valid-schema-example : "info"
